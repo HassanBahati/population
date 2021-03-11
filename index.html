@@ -18,6 +18,8 @@
 
     <!--javascript-->
     <script>
+
+
         let myChart = document.getElementById('myChart').getContext('2d');
     
         //global options
@@ -26,7 +28,7 @@
         Chart.defaults.global.defaultFontColor = '#777';
     
         let massPopChart = new Chart(myChart, {
-          type: 'bar', //bar, horizontalBar,pie, line, doughbut, radar, polarArea
+          type: 'line', //bar, horizontalBar,pie, line, doughbut, radar, polarArea
           data: {
             labels: [
               'Boston',
